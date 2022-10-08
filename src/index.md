@@ -11,16 +11,31 @@ You must have heard about GitHub and git and how it is an important tool in prog
 GitHub is a cloud-based platform for hosting, storing, and managing programmers' code. It is used for collaboration and version control. When you say a version control platform, it means that it tracks and records changes made to a file so that the programmer can easily access it.
 
 ## Why GitHub:
-Here are some of the benefits of using GitHub:
-- GitHub allows you to keep track of changes, issues, and milestones so you can see what your team members are up to.
--  GitHub allows you to share a link so that anyone can easily review and test your application, whether you want feedback from your customers or a professional analysis on your code.
 
-## What is Git
+Here are some of the benefits of using GitHub:
+
+GitHub allows you to keep track of changes, issues, and milestones so you can see what your team members are up to.
+GitHub allows you to share a link so that anyone can quickly review and test your application, whether you want customer feedback or professional analysis of your code.
+
+## What is Git:
 
 Linus Torvalds created Git, an open-source version control platform, in 2005.
 
 Git is a version control system for keeping track of changes to computer files, which means that every developer's computer has access to the whole codebase and history, enabling easy branching and merging. Let's compare Git vs GitHub now that you know what GitHub and Git are.
 
-## Git vs. GitHub
+## Git vs. GitHub:
 
 Git is a version control system for managing and tracking the history of source code. GitHub is a cloud-based service for managing Git repositories.
+
+## What is Git Clone:
+
+The Git clone command can be used to create a copy of a particular repository at that point in time including all versions of every file, folder, all branch, and all commits of that repository. You can also clone a branch within a repository. There are other ways you can clone in git. A few are listed below.
+
+- Git clone --mirror: In this method of cloning, you clone without being able to edit any of the files. This includes the refs or branches. This is mostly used when you want to create a secondary copy of a repository on a separate remote and match it to all of the branches.
+
+- Git clone --sparse: This is used to populate only the files in the root directory and helps with performance when cloning large repositories with many directories and sub-directories. 
+
+- Git clone --single-branch: This is used to clone a single branch.
+
+## Git Pull Request:
+You now have the knowledge of Git being used for collaboration. You may be wondering how this is done. One of the ways this is done is by forking the repository. When you are done with making your changes, you create a pull request to ask the maintainer or owner of the repository to merge your changes into the project. Before merging, the maintainer will perform a code review on the changes you made.
